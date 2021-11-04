@@ -1,0 +1,324 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./img/punta-del-este.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.text-container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(124, 124, 124, 0.514);
+}
+#title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+}
+#subtitle-header {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+}
+.link-header {
+  color: black;
+  transition: 1s;
+}
+.link-header:hover {
+  margin-top: 40px;
+}
+.icon-header {
+  font-size: 35px;
+  margin-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar {
+  position: sticky;
+  top: 0px;
+}
+.nav-visible {
+  position: sticky;
+  top: 10px;
+  background-color: rgb(101, 117, 148);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  color: white;
+}
+.title-nav {
+  font-family: 'Open Sans', sans-serif;
+
+}
+.button-icon-nav {
+  border-style: none;
+  background-color: rgba(245, 222, 179, 0);
+}
+.icon-nav {
+  font-size: 20px;
+  color: white;
+}
+.navbar-links {
+  background-color: rgb(101, 117, 148);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Roboto', sans-serif;
+}
+.link-nav {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+.link-nav:hover {
+  font-size: 1.2em;
+}
+.d-none {
+  display: none;
+}
+
+/* PÁGINA DE INICIO */
+/* PÁGINA DE INICIO */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container-bloque1-inicio {
+  width: 65vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: justify;
+}
+.title-bloque1-inicio {
+  margin: 10px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.texto-bloque1-inicio {
+  margin: 20px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.button-redes-sociales {
+  border-style: none;
+  border-radius: 3px;
+  background-color: rgb(101, 117, 148);
+  width: 150px;
+  height: 30px;
+  margin: 0px 20px;
+}
+.link-button-redes-sociales {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.container-buttons-bloque1-inicio {
+  margin-top: 20px;
+}
+
+.bloque2-inicio {
+  background-color: rgb(101, 117, 148);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.bloque3-inicio {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.title-bloque3-inicio {
+  font-size: 2em;
+}
+.subtitle-bloque3-inicio {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top:  10px;
+}
+.obj-list-serrvices {
+  margin-top: 10px;
+}
+
+.bloque4-inicio {
+  height: 100vh;
+  background-color: rgb(101, 117, 148);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+.img-container-bloque3-inicio {
+  width: 500px;
+}
+img {
+  width: 100%;
+}
+.texto-llegada {
+  width: 40%;
+  margin-top: 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.footer {
+  height: 100vh;
+  background-color: rgb(101, 117, 148);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.contacto {
+  color: white;
+  font-size: 2em;
+
+}
+.link-contact {
+  color: black;
+}
+.container-redes-sociales-contact {
+  display: flex;
+}
+.icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.container-redes-sociales-contact .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.container-redes-sociales-contact .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.container-redes-sociales-contact .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.container-redes-sociales-contact .icon:hover a,
+.container-redes-sociales-contact .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container-redes-sociales-contact .facebook:hover,
+.container-redes-sociales-contact .facebook:hover .tooltip,
+.container-redes-sociales-contact .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.container-redes-sociales-contact .instagram:hover,
+.container-redes-sociales-contact .instagram:hover .tooltip,
+.container-redes-sociales-contact .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+
+
+.phones-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-phone-container {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.text-phone {
+  text-align: center;
+  margin: 10px 0px;
+}
+.icon-phone {
+  background-color: rgb(101, 117, 148);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: white;
+}
+.link-contact-phone {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mail-contacto {
+  color: white;
+}
+.ubicacion-contacto {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.icon-ubicacion {
+  font-size: 30px;
+  margin-right: 15px;
+}

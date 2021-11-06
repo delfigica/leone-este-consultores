@@ -514,3 +514,134 @@ img {
     margin: 10px 0px;
   }
 }
+
+/* ASESORAMIENTO VEHICULAR */
+
+.title-ase-vehicular-container {
+  padding: 30px;
+
+}
+#title-ase-vehicular {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.hr-ase-vehicular{
+  margin: 10px auto ;
+  width: 50%;
+  text-align: center;
+  color: black;
+}
+
+.frase-viajar-auto-container {
+  background-color: rgb(101, 117, 148);
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.frase-viajar-auto-texto-container {
+  width: 40%;
+  text-align: justify;
+}
+.frase-viajar-auto-img-container {
+  width: 400px;
+}
+.title-frase-viajar-auto {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.texto-frase-viajar-auto {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.frase-ase-vehicular-container {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.frase-ase-vehicular {
+  font-size: 1.7em;
+}
+.imagen-auto {
+  height: 70vh;
+  background-image: url("./img/roadtrip2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.info-ase-vehicular-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.title-info-ase-vehicular {
+  font-size: 1.7em;
+  margin-top: 20px;
+}
+.container-img-info-vehicular {
+  max-width: 400px;
+  margin-top: 20px;
+}
+.texto-info-ase-vehicular {
+  margin-top: 20px;
+  width: 80%;
+  text-align: justify;
+}
+.lista-info-ase-vehicular {
+  margin-top: 40px;
+}
+.container-img-ase-vehicular {
+  max-width: 800px;
+
+}
+.frase-con-img-ase-vehicular {
+  margin-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.texto-frase-con-img-ase-vehicular {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+@media (max-width: 600px) {
+  .frase-viajar-auto-texto-container {
+    width: 90%;
+    margin: 20px 0px;
+  }
+  .title-info-ase-vehicular {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .subtitle-info-ase-vehicular {
+    margin-top: 20px;
+    text-align: center;
+    font-size: .9em;
+  }
+  .lista-info-ase-vehicular {
+    margin-left: 50px;
+  }
+  .frase-con-img-ase-vehicular {
+    justify-content: center;
+    height: 50vh;
+  }
+  .texto-frase-con-img-ase-vehicular {
+    font-size: 1em;
+    text-align: center;
+  }
+}

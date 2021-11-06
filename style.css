@@ -390,3 +390,127 @@ img {
     margin-left: 15px;
   }
 }
+
+/* PÁGINA DE COACHING */
+
+.title-coaching-container {
+  padding: 30px;
+
+}
+#title-coaching {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.hr-title-coaching {
+  margin: 10px auto ;
+  width: 50%;
+  text-align: center;
+  color: black;
+}
+
+.cita-coaching-container-img{
+  margin: auto;
+  height: 70vh;
+  width: 90%;
+  background-image: url("./img/aeropuerto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.cita-coaching-container {
+  height: 100%;
+  background-color: rgba(85, 85, 85, 0.411);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.title-cita {
+  font-size: 2em;
+  text-align: center;
+}
+.cita-te-dice {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 260px;
+  font-size: 1.5em;
+}
+.cita-texto {
+  font-size: 1.2em;
+  text-align: center;
+  width: 40%;
+  margin: 10px auto;
+}
+.autor-cita {
+  text-align: right;
+  margin-right: 260px;
+  font-size: 1.2em;
+}
+.coaching-migrotario-container {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cuando-un-coaching-migratorio-container {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.lista-ranzones-coachig {
+  margin-left: 50px;
+}
+.obj-lista-coaching {
+  margin: 10px 0px;
+}
+
+@media (max-width: 600px) { 
+  .title-cita {
+    font-size: 1.5em;
+  }
+  .cita-te-dice {
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  .cita-texto {
+    width: 80%;
+  }
+  .autor-cita {
+    margin-right: 10px;
+  }
+  .coaching-migrotario-container, .cuando-un-coaching-migratorio-container  {
+    width: 90%;
+  }
+  .title-coaching-migratorio {
+    margin: 15px 0px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .texto-coaching-migratorio {
+    margin: 10px 0px;
+  }
+  .title-necesidad-coaching {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .lista-ranzones-coachig  {
+    margin: 10px 20px;
+  }
+  .texto-necesidad-coaching {
+    margin: 10px 0px;
+  }
+}

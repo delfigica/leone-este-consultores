@@ -704,5 +704,33 @@ img {
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
-
+}
+@media (max-width: 600px) {
+  .visa-quienes-somos-container {
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .visa-quienes-somos-texto-container {
+    width: 90%;
+    margin-top: 10px;
+  }
+  iframe {
+    width: 300px;
+  }
+  .animation-text {
+    text-align: center;
+  }
+  .texto-visa-quines-somos {
+    margin-top: 10px;
+  }
+  .img-container-visa-quienes-somos {
+    margin: 20px;
+  }
+  .consultores-nueva-york-container {
+    margin: 20px;
+  }
+  .texto-consultores-nueva-york {
+    text-align: center;
+    font-size: 1.2em;
+  }
 }

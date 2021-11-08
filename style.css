@@ -738,6 +738,7 @@ img {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* VIAJAR CON MASCOTA */
 .title-mascota-container {
   padding: 30px;
@@ -791,4 +792,71 @@ img {
 }
 .img-container-aca-estamos {
   max-width: 350px;
+}
+
+/* VIVIR EN URUGUAY */
+
+.title-vivir-uruguay-container {
+  padding: 30px;
+
+}
+#title-vivir-uruguay {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.hr-vivir-uruguay {
+  margin: 10px auto ;
+  width: 50%;
+  text-align: center;
+  color: black;
+}
+
+.img-vivir-uruguay-container {
+  height: 70vh;
+  background-image: url("./img/vivir-en-uruguay.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-vivir-uruguay-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(29, 27, 27, 0.651);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 2em;
+}
+.info-vivir-uruguay-container {
+  background-color: rgb(101, 117, 148);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.texto-info-vivir-uruguay {
+  width: 50%;
+  text-align: justify;
+}
+@media (max-width: 600px) {
+  #title-vivir-uruguay {
+    font-size: 1.6em;
+  }
+  .img-vivir-uruguay-texto {
+    font-size: 1.6em;
+    text-align: center;
+  }
+  .info-vivir-uruguay-container  {
+    height: 100vh;
+  }
+  .texto-info-vivir-uruguay {
+    width: 90%;
+  }
 }

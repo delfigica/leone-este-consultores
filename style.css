@@ -734,3 +734,51 @@ img {
     font-size: 1.2em;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* VIAJAR CON MASCOTA */
+.title-mascota-container {
+  padding: 30px;
+
+}
+#title-mascota {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.hr-masccota {
+  margin: 10px auto ;
+  width: 50%;
+  text-align: center;
+  color: black;
+}
+.img-mascota-container {
+  max-width: 700px;
+  margin: auto;
+}
+.info-mascota-container, .texto-info-mascota-container, .info-mascota-title-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px;
+}
+.title-info-mascota, .subtitle-info-mascota {
+  font-family: 'Poppins', sans-serif;
+
+}
+.texto-info-mascota{
+  width: 60%;
+  text-align: justify;
+  margin: 5px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 600px) {
+  .img-mascota-container {
+    margin: 0px 10px;
+  }
+  .texto-info-mascota {
+    width: 80%;
+  }
+}

@@ -860,3 +860,100 @@ img {
     width: 90%;
   }
 }
+
+/* ACERCA DE  */
+
+.title-acerca-container {
+  padding: 30px;
+  background-color: rgb(101, 117, 148);
+
+}
+#title-acerca {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+.hr-acerca {
+  margin: 10px auto ;
+  width: 50%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.sobre-nosotros-container {
+  background-color: rgb(101, 117, 148);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.img-container-sobre-nosotros {
+  max-width: 250px;
+}
+.img-sobre-nosotros {
+  border-radius: 50%;
+}
+.texto-img-sobre-nosotros {
+  font-size: .8em;
+  text-align: center;
+  margin-top: 5px;
+}
+.info-sobre-nosotros {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texto-sobre-nosotros {
+  text-align: justify;
+  margin: 20px;
+
+}
+.area-de-desarrollo {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+.texto-area-de-desarrollo {
+  width: 70%;
+  margin: auto;
+}
+.title-area-de-desarrollo {
+  margin-left: 130px;
+  font-size: 1.8em;
+}
+.estudio {
+  font-size: 1.2em;
+}
+@media (max-width: 600px) {
+  #title-acerca {
+    font-size: 1.9em;
+  }
+  .info-sobre-nosotros {
+    width: 90%;
+    margin: auto;
+  }
+  .area-de-desarrollo  {
+    width: 90%;
+    margin: auto;
+  }
+  .texto-area-de-desarrollo {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .estudio {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  .title-area-de-desarrollo {
+    font-size: 1.3em;
+    margin: 15px 0px;
+    margin-left: 10px;
+  }
+}

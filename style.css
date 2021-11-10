@@ -534,24 +534,6 @@ img {
   text-align: center;
   color: black;
 }
-
-.frase-viajar-auto-container {
-  background-color: rgb(101, 117, 148);
-  color: white;
-  min-height: 60vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-.frase-viajar-auto-texto-container {
-  width: 40%;
-  text-align: justify;
-}
-.frase-viajar-auto-img-container {
-  width: 400px;
-}
 .title-frase-viajar-auto {
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
@@ -560,17 +542,6 @@ img {
 .texto-frase-viajar-auto {
   margin-top: 20px;
   font-family: 'Open Sans', sans-serif;
-}
-.frase-ase-vehicular-container {
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Open Sans', sans-serif;
-
-}
-.frase-ase-vehicular {
-  font-size: 1.7em;
 }
 .imagen-auto {
   height: 70vh;

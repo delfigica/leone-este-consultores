@@ -154,7 +154,7 @@
   text-align: center;
   margin-top:  10px;
 }
-.obj-list-serrvices {
+.obj-list-services {
   margin-top: 10px;
 }
 
@@ -361,6 +361,9 @@ img {
   .services-list {
     width: 90vw;
     margin: 20px;
+  }
+  .obj-list-services {
+    margin-left: 15px;
   }
   .bloque4-inicio {
     justify-content: space-evenly;
